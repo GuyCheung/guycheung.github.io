@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Guy Cheung's Blog]]></title>
-  <link href="http://guycheung.github.io/atom.xml" rel="self"/>
-  <link href="http://guycheung.github.io/"/>
-  <updated>2013-09-30T17:58:22+08:00</updated>
-  <id>http://guycheung.github.io/</id>
+  <link href="http://guycheung.github.io//atom.xml" rel="self"/>
+  <link href="http://guycheung.github.io//"/>
+  <updated>2013-09-30T18:31:33+08:00</updated>
+  <id>http://guycheung.github.io//</id>
   <author>
     <name><![CDATA[Guy Cheung]]></name>
     <email><![CDATA[guy.xtafcusqt@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[测试一下]]></title>
-    <link href="http://guycheung.github.io/blog/2013/09/30/test/"/>
+    <link href="http://guycheung.github.io//blog/2013/09/30/test/"/>
     <updated>2013-09-30T16:03:00+08:00</updated>
-    <id>http://guycheung.github.io/blog/2013/09/30/test</id>
+    <id>http://guycheung.github.io//blog/2013/09/30/test</id>
     <content type="html"><![CDATA[<h1>hahahah</h1>
 
 <p><em>italic</em></p>

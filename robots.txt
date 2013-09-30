@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://guycheung.github.io/sitemap.xml 
+Sitemap: http://guyzyl.com/sitemap.xml 

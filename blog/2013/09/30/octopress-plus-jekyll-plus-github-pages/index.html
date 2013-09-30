@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Guy Cheung's Blog</title>
+  <title>Octopress + Jekyll + Github Pages 搭建个人Blog - Guy Cheung's Blog</title>
   <meta name="author" content="Guy Cheung">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://guyzyl.com">
+  <link rel="canonical" href="http://guyzyl.com/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -89,15 +89,13 @@
 </nav>
   <div class="container">
     <div class="row-fluid">
-      <div class="span9">
-  
-  
-  
-    <article>
       
+<article class="hentry span9" role="article">
+
+  
   <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/">Octopress + Jekyll + Github Pages 搭建个人Blog</a></h1>
+      <h1 class="entry-title">Octopress + Jekyll + Github Pages 搭建个人Blog</h1>
     
     
       <p class="meta">
@@ -115,14 +113,14 @@
 
 <time datetime="2013-09-30T22:33:00+08:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
         
-         | <a href="/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>最近心血来潮，在一年不写Bolg后（虽然之前也不怎么写）突然又有了写Blog的冲动。先自勉一个，希望这次能坚持下去！</p>
+<div class="entry-content"><p>最近心血来潮，在一年不写Bolg后（虽然之前也不怎么写）突然又有了写Blog的冲动。先自勉一个，希望这次能坚持下去！</p>
 
 <p>第一篇就写写怎么用题目的里东东搞个个人博客吧～</p>
 
@@ -237,18 +235,63 @@
 
 <p>另外，由于现在octopress没有版本管理了，还是觉得心有点虚，所以又搞了个git仓库来放octopress这个目录的东西</p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Guy Cheung</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2013-09-30T22:33:00+08:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
+      
+
+<span class="categories">
   
-  <ul class="pager">
+    <a class='category' href='/blog/categories/coolskill/'>CoolSkill</a>
+  
+</span>
+
+
+    </p>
     
-    <li><a href="/blog/archives">Blog Archives</a></li>
-    
-  </ul>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://guyzyl.com/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/" data-via="" data-counturl="http://guyzyl.com/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+    
+    <ul class="pager">
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+    </ul>
+  </footer>
+</article>
+
 <aside class="sidebar-nav span3">
   
     <section class="well">
@@ -265,7 +308,7 @@
 <section class="well">
   <ul id="gh_repos" class="nav">
     <li class="nav-header">GitHub Repos</li>
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/guycheung">@guycheung</a> on GitHub
@@ -290,6 +333,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo" class="page-footer"><hr>
@@ -305,7 +349,10 @@
       var disqus_shortname = 'guycheungsblog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://guyzyl.com/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/';
+        var disqus_url = 'http://guyzyl.com/blog/2013/09/30/octopress-plus-jekyll-plus-github-pages/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
